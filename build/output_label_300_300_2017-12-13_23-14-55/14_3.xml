@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<folder>test_image3</folder>
+	<filename>14.jpg</filename>
+	<path>/home/wanglc/code/cropImage/test_image3/14.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>134</xmin>
+			<ymin>64</ymin>
+			<xmax>164</xmax>
+			<ymax>152</ymax>
+		</bndbox>
+	</object>
+</annotation>

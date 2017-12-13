@@ -1,0 +1,19 @@
+This annotation box boundary exceed 300 * 300, when processing ../test_image/10.JPG, labelfile: ../test_image/10.xml
+(xmin: 120, xmax: 338, ymin: 30, ymax: 546, width: 219, height: 517)
+
+Height 284, or width 456 is smaller than resize_height(300) or resize_width(300). Ignore ../test_image/12.jpg, labelfile: ../test_image/12.xml
+
+Height 209, or width 300 is smaller than resize_height(300) or resize_width(300). Ignore ../test_image/16.jpeg, labelfile: ../test_image/16.xml
+
+This annotation box boundary exceed 300 * 300, when processing ../test_image/99.jpg, labelfile: ../test_image/99.xml
+(xmin: 74, xmax: 305, ymin: 91, ymax: 656, width: 232, height: 566)
+
+This annotation box boundary exceed 300 * 300, when processing ../test_image/99.jpg, labelfile: ../test_image/99.xml
+(xmin: 470, xmax: 694, ymin: 88, ymax: 673, width: 225, height: 586)
+
+This annotation box boundary exceed 300 * 300, when processing ../test_image/99.jpg, labelfile: ../test_image/99.xml
+(xmin: 853, xmax: 1071, ymin: 93, ymax: 671, width: 219, height: 579)
+
+This annotation box boundary exceed 300 * 300, when processing ../test_image/99.jpg, labelfile: ../test_image/99.xml
+(xmin: 1226, xmax: 1437, ymin: 99, ymax: 670, width: 212, height: 572)
+
