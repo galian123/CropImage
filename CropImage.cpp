@@ -222,10 +222,10 @@ bool writeLabelFile(char *origlabelfile, char *outfilename, int xlimit, int ylim
 int main(int argc, char** argv ) {
     gflags::SetUsageMessage("crop images and save resize_width * resize_height area which contains labels.\n"
         "It may split one image into several images with name suffix like 'xxx_1.png', 'xxx_2.png', etc.\n"
-        "Please use 'cropImage -helpshort' to get only help message for cropImage. \n"
+        "Please use 'CropImage -helpshort' to get only help message for CropImage. \n"
         "Usage:\n"
-        "    cropImage -imgdir <image_folder> -labeldir <label_folder> \n"
-        "    cropImage -imgdir <image_folder> \n"
+        "    CropImage -imgdir <image_folder> -labeldir <label_folder> \n"
+        "    CropImage -imgdir <image_folder> \n"
         "If '-labeldir' is not set, then use 'imgdir' as 'labeldir'.\n"
         "Default image output folder is './output_img_<time>'. Default label output folder is './output_label_<time>'\n");
     gflags::ParseCommandLineFlags(&argc, &argv, true);
