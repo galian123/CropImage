@@ -2,20 +2,13 @@
 #include <assert.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-#include <sys/stat.h>
-#include <unistd.h>
+#include <fcntl.h>
 #include <errno.h>
 #include <dirent.h>
 #include <string>
 #include <opencv2/opencv.hpp>
 #include "gflags/gflags.h"
-#include "glog/logging.h"
-#include <boost/algorithm/string/classification.hpp>
-#include <boost/algorithm/string/split.hpp>
-#include <boost/filesystem.hpp>
 #include <boost/foreach.hpp>
-#include <boost/property_tree/json_parser.hpp>
-#include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/xml_parser.hpp>
 
 /*This tool is used to crop image into resize_width * resize_height( default: 300*300).
