@@ -20,7 +20,7 @@ If You can also refer to https://docs.opencv.org/master/d7/d9f/tutorial_linux_in
 sudo apt-get install cmake libboost-all-dev libgflags-dev
 ```
 
-## **&#9733; Compile **
+## **&#9733; Compile**
 
 Current directory is `CropImage`.
 
@@ -81,16 +81,16 @@ Warning information will be saved into `result_warning_<time>.txt`, like this `r
 You can use [LabelImg](https://github.com/tzutalin/labelImg) to verify the result.
 
 Original image file with annotations:
-![](https://github.com/galian123/CropImage/example/orig.png)
+![](https://github.com/galian123/CropImage/blob/master/example/orig.png)
 
 After image is croped, it is divided into two parts.
-![](https://github.com/galian123/CropImage/example/crop1.png)
+![](https://github.com/galian123/CropImage/blob/master/example/crop1.png)
 
-![](https://github.com/galian123/CropImage/example/crop2.png)
+![](https://github.com/galian123/CropImage/blob/master/example/crop2.png)
 
 ## **&#9733; Notes**
 
-### ** &#9830; box boundary exceed resize_width \* resize_height**
+### **&#9830; box boundary exceed resize_width \* resize_height**
 If the annotation box boundary exceed resize_width \* resize_height (eg. 300 * 300), then warning info will be write to screen and log file.
 
 print on screen: `this annotation box boundary exceed 300 * 300`
@@ -101,7 +101,7 @@ This annotation box boundary exceed 300 * 300, when processing ../test_image/99.
 (xmin: 470, xmax: 694, ymin: 88, ymax: 673, width: 225, height: 586)
 ```
 
-### ** &#9830; Now `<path>` and `<filename>` in annotation file are NOT changed after image is croped.**
+### **&#9830; Now `<path>` and `<filename>` in annotation file are NOT changed after image is croped.**
 
 
 
