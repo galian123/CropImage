@@ -1,5 +1,7 @@
 # CropImage Introduction
 
+Compile env: Ubuntu. I just test it on Ubuntu 16.04.
+
 ## **&#9733; Download code**
 
 ```language
@@ -13,7 +15,7 @@ git clone https://github.com/galian123/CropImage
 ```language
 sudo apt-get install libopencv-dev
 ```
-If You can also refer to https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html .
+You can also refer to https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html .
 
 * Install cmake, boost, gflags:
 ```language
