@@ -85,7 +85,7 @@ You can use [LabelImg](https://github.com/tzutalin/labelImg) to verify the resul
 Original image file with annotations:
 ![](https://github.com/galian123/CropImage/blob/master/example/orig.png)
 
-After image is croped, it is divided into two parts.
+After image is cropped, it is divided into two parts.
 ![](https://github.com/galian123/CropImage/blob/master/example/crop1.png)
 
 ![](https://github.com/galian123/CropImage/blob/master/example/crop2.png)
@@ -103,7 +103,7 @@ This annotation box boundary exceed 300 * 300, when processing ../test_image/99.
 (xmin: 470, xmax: 694, ymin: 88, ymax: 673, width: 225, height: 586)
 ```
 
-### **&#9830; Now `<path>` and `<filename>` in annotation file are NOT changed after image is croped.**
+### **&#9830; Now `<path>` and `<filename>` in annotation file are NOT changed after image is cropped.**
 
 
 
