@@ -18,9 +18,9 @@ sudo apt-get install libopencv-dev
 You can also refer to https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html .
 
 * Install cmake, boost, gflags:
-```language
-sudo apt-get install cmake libboost-all-dev libgflags-dev
-```
+    ```language
+    sudo apt-get install cmake libboost-all-dev libgflags-dev
+    ```
 
 ## **&#9733; Compile**
 
